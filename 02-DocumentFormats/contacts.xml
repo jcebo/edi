@@ -22,4 +22,14 @@
 		<phone type="work">6660611</phone>
 		<notes>my best friend</notes>
 	</contact>
+	<contact>
+	<name>Jakub</name>
+	<name>Adam</name>
+	<surname>Cebo</surname>
+	<email type="personal">abuk@t.pl</email>
+	<email type="college">s215720@uek.krakow.pl</email>
+	<notes>mam psa i kota</notes>
+	</contact>
+	
+	
 </contacts>
