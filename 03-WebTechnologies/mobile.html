@@ -6,7 +6,18 @@
 	</head>
 	<body>
 		<h1>Create mobile phone</h1>
+		<button id="button" type="button" onclick="click()">Click to see the details</button>
 		<script>
+		var phone= {
+			number: 784587457
+			prefix: "+48"
+			countryCodePoland: Boolean(prefix=="+48")
+			arr: [cpu, screen, buttons]
+
+		}
+		function click(){
+			alert(phone.number);
+		}
 		</script>
 	</body>
 </html>

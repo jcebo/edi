@@ -7,7 +7,7 @@
 	<body>
 		<h1>Create methods</h1>
 		<script>
-			var myArray = {
+			/* var myArray = {
 					arr: [3,4,76,1,5,787,33,76,1,99,45,235,53,23],
 					min: function(){
 						// maximum value (sort the arr and take the last value, use a built-in function)
@@ -16,9 +16,27 @@
 					avg: function(){},		// avarage value
 					lth: function(val){}	// the number of arr values less than 'val'
 			};
-			
+			*/
 			// display results (min,max,avg,lth) in the console
 			// ...
+			arr=[]
+			for (i=0; i<5; i++){
+			var randNumber=Math.floor(Math.random() * 5) + 1;
+			arr.push(randNumber)
+			}
+			alert(arr)
+			var sort=0
+			for (n=0; n<5; n++){
+				if (arr[n]>arr[n+1]){
+					sort+=1
+				}
+				 	
+			}
+			if (sort==0){
+				alert('The array is sorted')
+			} else {
+				alert('The array is not sorted')
+			}
 		</script>
 	</body>
 </html>
