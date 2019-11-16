@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<films>
+<!-- pay attention to the international characters:
+	  1/ use the "encoding" attribute with "utf-8" value
+	  2/ save an xml file in utf-8 format
+		-->
+	<film>
+		<title translation="no">Joker</title>
+		<director>Todd Phillips</director>
+		<year>2019</year>
+		<genre>crime</genre>
+		<personal_rating>8.5</personal_rating>
+		<actors polish="no">Joaquin Phoenix, Robert De Niro, Zazie Beetz </actors>
+	</film>
+	<film>
+		<title translation="no">Kogel-mogel</title>
+		<director>Roman Zaluski</director>
+		<year>1988</year>
+		<genre>Comedy</genre>
+		<personal_rating>4.8</personal_rating>
+		<actors polish="yes">Grazyna Blecka-Kolska, Ewa Kasprzyk, Zdzislaw Wardejn </actors>
+	</film>
+	<film>
+		<title translation="yes">Skazani na Shawshank</title>
+		<director>Frank Darabont</director>
+		<year>1994</year>
+		<genre>Drama</genre>
+		<personal_rating>9.5</personal_rating>
+		<actors polish="no">Tim Robbins, Morgan Freeman, Bob Gunton </actors>
+	</film>
+	
+</films>
