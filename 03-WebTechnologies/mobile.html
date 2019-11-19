@@ -6,17 +6,21 @@
 	</head>
 	<body>
 		<h1>Create mobile phone</h1>
-		<button id="button" type="button" onclick="click()">Click to see the details</button>
+		<button id="button" type="button" onclick="butto()">Click to see the details</button>
 		<script>
 		var phone= {
-			number: 784587457
-			prefix: "+48"
-			countryCodePoland: Boolean(prefix=="+48")
-			arr: [cpu, screen, buttons]
+			number: 784587457	,
+			prefix: "+48"	,
+			countryCodePoland: Boolean(prefix="+48"),
+			parts: ['cpu', 'screen', 'buttons']
+			
+			
+
 
 		}
-		function click(){
-			alert(phone.number);
+		function butto(){
+			alert ("### Mobile phone details ###" + '\n' + 'number: '+ phone.number + '\n' + 'prefix: ' + phone.prefix + '\n' + 'Polish country code: ' + phone.countryCodePoland +'\n'+'parts: ' + phone.parts);
+			
 		}
 		</script>
 	</body>
